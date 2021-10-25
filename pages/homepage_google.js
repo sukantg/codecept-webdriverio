@@ -2,10 +2,7 @@ const { I } = inject();
 
 module.exports = {
 
-  // insert your locators and methods here
-
-locators: {
-  searchButton: '#gNO89b'
-}
-
+// buttons
+searchButton: {xpath: '//div[@class="FPdoLc lJ9FBc"]//input[1]'},
+luckyButton: {xpath: '//div[@class="FPdoLc lJ9FBc"]//input[2]'}
 }
