@@ -14,7 +14,8 @@ exports.config = {
     }
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
+    homePage: './pages/homepage_google.js'
   },
   bootstrap: null,
   mocha: {},
